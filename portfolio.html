@@ -266,7 +266,15 @@
 				<div class="footer-subscribe">
 					<p class="footer-subscribe-paragraph">Subscribe</p>
 					<form class="footer-form">
-						<input class="footer-form-input" type="text" name="user-email" placeholder="E-mail" required />
+						<label class="footer-form-label" for="user-email" aria-label="user-email"></label>
+						<input
+							class="footer-form-input"
+							type="email"
+							id="user-email"
+							name="user-email"
+							placeholder="E-mail"
+							required
+						/>
 						<button class="footer-form-button" type="submit"
 							>Subscribe
 							<svg class="telegram-icon" width="24" height="24">

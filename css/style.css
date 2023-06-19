@@ -550,25 +550,29 @@ body {
 
 .footer-form-input {
 	width: 264px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
 	padding: 8px 16px;
 	border: 1px solid var(--white-background);
+	color: var(--white-background);
 	border-radius: 4px;
 	background-color: transparent;
 	outline: transparent;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-input::placeholder {
-	font-size: 12px;
-	line-height: 2;
-	letter-spacing: 0.04em;
 	color: var(--white-background);
 }
 
 .footer-form-button {
 	min-width: 165px;
+	height: 40px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	gap: 16px;
 	padding: 8px 24px;
 	font-family: inherit;
 	font-size: 16px;
@@ -584,6 +588,7 @@ body {
 }
 
 .telegram-icon {
+	margin-left: 16px;
 	fill: var(--white-background);
 }
 
@@ -673,17 +678,17 @@ body {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(-hero-background);
+	color: var(--hero-background);
 	margin-bottom: 16px;
 }
 
 .modal-label {
-	display: inline-block;
+	display: block;
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: var(--background-icon);
-	margin-bottom: 4px;
+	margin-bottom: 8px;
 }
 
 .modal-form-field:not(:nth-child(4)) {
@@ -700,6 +705,7 @@ body {
 	padding: 0 38px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
+	background-color: transparent;
 	transition-property: border;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -729,6 +735,9 @@ body {
 
 .modal-text {
 	height: 120px;
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.04em;
 	padding: 8px 16px;
 	margin-bottom: 16px;
 	resize: none;
@@ -739,6 +748,10 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: rgba(46, 47, 66, 0.4);
+}
+
+.checkbox-wrap {
+	margin-bottom: 24px;
 }
 
 .modal-checkbox {
@@ -771,7 +784,7 @@ body {
 }
 
 .modal-label-checkbox span {
-	display: flex;
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	width: 16px;
@@ -780,6 +793,9 @@ body {
 	border-radius: 2px;
 	margin-right: 8px;
 	fill: transparent;
+	transition-property: border-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label-checkbox a {
