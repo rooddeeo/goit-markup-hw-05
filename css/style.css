@@ -688,11 +688,11 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: var(--background-icon);
-	margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
 .modal-form-field:not(:nth-child(4)) {
-	margin-bottom: 26px;
+	margin-bottom: 8px;
 }
 
 .modal-form-input {
@@ -706,7 +706,7 @@ body {
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
 	background-color: transparent;
-	transition-property: border;
+	transition-property: border-color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	outline: transparent;
@@ -752,6 +752,10 @@ body {
 
 .checkbox-wrap {
 	margin-bottom: 24px;
+	color: rgba(46, 47, 66, 0.4);
+	transition-property: border-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox {
@@ -767,7 +771,7 @@ body {
 .modal-checkbox:checked + .modal-label-checkbox span {
 	background-color: var(--pressed-state);
 	border: none;
-	fill: var(--white-background);
+	fill: var(--light);
 }
 
 .modal-label-checkbox {
@@ -793,7 +797,7 @@ body {
 	border-radius: 2px;
 	margin-right: 8px;
 	fill: transparent;
-	transition-property: border-color;
+	transition-property: background-color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
