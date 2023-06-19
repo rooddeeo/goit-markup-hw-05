@@ -743,7 +743,7 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	padding: 8px 16px;
-	margin-bottom: 16px;
+	color: rgba(46, 47, 66, 0.4);
 	resize: none;
 }
 
@@ -784,8 +784,6 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: var(--background-icon);
-	display: flex;
-	align-items: center;
 	transition-property: border-color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
