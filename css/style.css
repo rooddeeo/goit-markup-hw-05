@@ -755,7 +755,6 @@ body {
 }
 
 .checkbox-wrap {
-	margin-bottom: 24px;
 	color: rgba(46, 47, 66, 0.4);
 	transition-property: border-color;
 	transition-duration: 250ms;
@@ -766,6 +765,10 @@ body {
 	transition-property: background-color, border, fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-field:nth-child(5) {
+	margin-bottom: 24px;
 }
 
 .modal-checkbox:focus {
